@@ -1,6 +1,6 @@
-# dynamixel-source
+# dynamixel-sdk sources
 
-A clean set of sources for cross-platform.
+A clean set of sources for cross-platform robotic fun.
 
 ## Building sources
 
