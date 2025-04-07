@@ -1,8 +1,8 @@
-# dynamixel-sdk sources
+## dynamixel-sdk sources per platform
 
 A clean set of sources for cross-platform robotic fun.
 
-## Building sources
+### Building sources
 
 There are three environments where the dynamixel motors are being used:
 
