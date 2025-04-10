@@ -4,3 +4,5 @@
 * Motors on the pelvis and abdomen are [MX-64AT](https://emanual.robotis.com/docs/en/dxl/mx/mx-64/)
 * Motor on the neck is [MX-18A](https://emanual.robotis.com/docs/en/dxl/ax/ax-18a/)
 * Motor to swivel the head is [MX-12A](https://emanual.robotis.com/docs/en/dxl/ax/ax-12a/)
+* General [GitHub](https://github.com/ROBOTIS-GIT/emanual/tree/master/docs/en/dxl/mx)-based documentation
+
