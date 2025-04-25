@@ -25,7 +25,7 @@ STRIP       = strip
 AR          = ar
 ARFLAGS     = cr
 LD          = g++
-LDFLAGS     = -shared -fPIC #-Wl,-soname,dxl
+LDFLAGS     = -shared -fPIC -Wl,-allow-multiple-definition #-soname,dxl
 LD_CONFIG   = ldconfig
 CP          = cp
 CP_ALL      = cp -r
@@ -59,8 +59,6 @@ SOURCES  = src/dynamixel_sdk/group_bulk_read.c \
 
 
 OBJECTS=$(addsuffix .o,$(addprefix $(DIR_OBJS)/,$(basename $(notdir $(SOURCES)))))
-
-LDFLAGS="-Wl,-allow-multiple-definition"
 
 #---------------------------------------------------------------------
 # COMPILING RULES
